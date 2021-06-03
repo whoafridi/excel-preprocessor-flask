@@ -1,3 +1,5 @@
+# this is containes all required proprocessing functions
+
 def remove_whitespace(s):
     t = s.replace("\n",'')
     name = ''
@@ -9,8 +11,8 @@ def remove_whitespace(s):
             name += i
             if count == 2:
                 break
-            else:
-                name += i
+        else:
+            name += i
     return name.rstrip()
 
 def remove_character(s):
@@ -24,7 +26,7 @@ def remove_character(s):
 
     return points[::-1]
 
-def remove_unncessary(s):
+def remove_unnecessary(s):
     t = s.replace(' ', '').replace("\n", "")
     return t
 
@@ -32,6 +34,4 @@ def remove_avg(s):
     t = s.replace(' ', '').replace("\n", "").replace("%",'').replace("Avg.", '')
     return t
 
-string = "12af 09"
-d = remove_character(string)
-print(d) # output : 09
+
