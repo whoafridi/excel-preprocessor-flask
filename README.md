@@ -3,7 +3,7 @@
 ## Installation
 ### Clone the repo
 ```py
-git clone
+git clone https://github.com/whoafridi/excel-preprocessor-flask.git
 ```
 
 ### Run the command
